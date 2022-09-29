@@ -1,0 +1,17 @@
+package com.carlos.abstractdemo;
+
+import com.carlos.abstractdemo.models.Cash;
+import com.carlos.abstractdemo.models.CreditCard;
+
+public class AbstractDemoApplication {
+
+	public static void main(String[] args) {
+//		Payment pay = new Payment();
+		Cash puppy = new Cash(599.99);
+		puppy.paymentDetails();
+		CreditCard laptop = new CreditCard(2500.99,  "987987987",  "Carlos Medina",  "12/22");
+		laptop.paymentDetails();
+		
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.carlos.interfacedemo.interfaces;
+
+public interface Keepable {
+
+}

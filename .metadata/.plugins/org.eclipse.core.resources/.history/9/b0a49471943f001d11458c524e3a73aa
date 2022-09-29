@@ -1,0 +1,5 @@
+package com.carlos.interfacedemo;
+
+public interface InterfaceDemoApplication {
+
+}
